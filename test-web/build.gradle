@@ -1,0 +1,27 @@
+plugins {
+    id 'java'
+}
+
+group 'spring-boot-jooq-demo'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    maven { url 'http://maven.aliyun.com/nexus/content/groups/public/' }
+}
+
+dependencies {
+    compile project(":test-service")
+    compile("org.springframework.boot:spring-boot-starter-jdbc:$springBootVersion")
+    compile("org.springframework.boot:spring-boot-starter-web:$springBootVersion")
+    compile("org.springframework.boot:spring-boot-starter-aop:$springBootVersion")
+
+    compile group: 'io.springfox', name: 'springfox-swagger-ui', version: '2.2.2'
+    compile group: 'io.springfox', name: 'springfox-swagger2', version: '2.2.2'
+
+    compile group: 'org.flywaydb', name: 'flyway-maven-plugin', version: '5.2.4'
+    compile group: 'org.flywaydb', name: 'flyway-core', version: '5.0.7'
+
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}

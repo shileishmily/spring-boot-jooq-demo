@@ -1,0 +1,7 @@
+rootProject.name = 'spring-boot-jooq-demo'
+include 'test-generator'
+include 'test-core'
+include 'test-dao'
+include 'test-service'
+include 'test-web'
+

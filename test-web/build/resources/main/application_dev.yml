@@ -1,0 +1,11 @@
+spring:
+  aop:
+    auto: true
+    proxy-target-class: true
+  datasource:
+    url: jdbc:mysql://localhost:3306/jooq_test?createDatabaseIfNotExist=true&useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&transformedBitIsBoolean=true&autoReconnect=true&failOverReadOnly=false&maxReconnects=10
+    username: root
+    password: 111
+    driver-class-name: com.mysql.jdbc.Driver
+  jooq:
+    sql-dialect: mysql
