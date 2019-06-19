@@ -2,21 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="699c0c2b-fe20-4e7f-814a-027ab10e3ca8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/test-dao/src/main/java/com/suixingpay/jooq/dao/impl/SysUserDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/cache.properties.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/cache.properties.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/taskArtifacts.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/taskArtifacts.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-core/src/main/java/com/suixingpay/jooq/entity/JooqTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test-core/src/main/java/com/suixingpay/jooq/entity/JooqTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-core/src/main/java/com/suixingpay/jooq/entity/Keys.java" beforeDir="false" afterPath="$PROJECT_DIR$/test-core/src/main/java/com/suixingpay/jooq/entity/Keys.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-core/src/main/java/com/suixingpay/jooq/entity/Tables.java" beforeDir="false" afterPath="$PROJECT_DIR$/test-core/src/main/java/com/suixingpay/jooq/entity/Tables.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-dao/src/main/java/com/suixingpay/jooq/BaseDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/test-dao/src/main/java/com/suixingpay/jooq/BaseDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-dao/src/main/java/com/suixingpay/jooq/dao/SysUserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/test-dao/src/main/java/com/suixingpay/jooq/dao/SysUserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-dao/src/main/java/com/suixingpay/jooq/dao/impl/SysUserDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/test-dao/src/main/java/com/suixingpay/jooq/dao/impl/SysUserDaoImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-service/src/main/java/com/suixingpay/jooq/service/SysUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/test-service/src/main/java/com/suixingpay/jooq/service/SysUserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-service/src/main/java/com/suixingpay/jooq/service/impl/SysUserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/test-service/src/main/java/com/suixingpay/jooq/service/impl/SysUserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-web/build/resources/main/db/migration/V1__init_database.sql" beforeDir="false" afterPath="$PROJECT_DIR$/test-web/build/resources/main/db/migration/V1__init_database.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-web/src/main/java/com/suixingpay/jooq/controller/SysUserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/test-web/src/main/java/com/suixingpay/jooq/controller/SysUserController.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -98,11 +87,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test-dao/src/main/java/com/suixingpay/jooq/dao/impl/SysUserDaoImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+            <state relative-caret-position="84">
+              <caret line="12" selection-end-line="38" />
               <folding>
                 <element signature="e#608#609#0" expanded="true" />
                 <element signature="e#639#640#0" expanded="true" />
@@ -114,8 +103,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test-dao/src/main/java/com/suixingpay/jooq/BaseDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1011">
-              <caret line="53" column="43" lean-forward="true" selection-start-line="53" selection-start-column="43" selection-end-line="53" selection-end-column="43" />
+            <state relative-caret-position="227">
+              <caret line="101" lean-forward="true" selection-end-line="104" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -123,11 +112,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test-service/src/main/java/com/suixingpay/jooq/service/SysUserService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="217">
-              <caret line="32" column="23" selection-start-line="32" selection-end-line="33" />
+            <state relative-caret-position="308">
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -177,8 +166,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test-dao/src/main/java/com/suixingpay/jooq/dao/SysUserDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="333">
-              <caret line="21" column="20" selection-start-line="21" selection-end-line="22" />
+            <state relative-caret-position="196">
+              <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -238,12 +227,12 @@
         <option value="$PROJECT_DIR$/test-web/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/test-web/src/main/resources/db/migration/V1__init_database.sql" />
         <option value="$PROJECT_DIR$/test-web/build.gradle" />
-        <option value="$PROJECT_DIR$/test-dao/src/main/java/com/suixingpay/jooq/BaseDao.java" />
-        <option value="$PROJECT_DIR$/test-dao/src/main/java/com/suixingpay/jooq/dao/SysUserDao.java" />
-        <option value="$PROJECT_DIR$/test-service/src/main/java/com/suixingpay/jooq/service/SysUserService.java" />
         <option value="$PROJECT_DIR$/test-service/src/main/java/com/suixingpay/jooq/service/impl/SysUserServiceImpl.java" />
         <option value="$PROJECT_DIR$/test-web/src/main/java/com/suixingpay/jooq/controller/SysUserController.java" />
+        <option value="$PROJECT_DIR$/test-dao/src/main/java/com/suixingpay/jooq/BaseDao.java" />
+        <option value="$PROJECT_DIR$/test-dao/src/main/java/com/suixingpay/jooq/dao/SysUserDao.java" />
         <option value="$PROJECT_DIR$/test-dao/src/main/java/com/suixingpay/jooq/dao/impl/SysUserDaoImpl.java" />
+        <option value="$PROJECT_DIR$/test-service/src/main/java/com/suixingpay/jooq/service/SysUserService.java" />
       </list>
     </option>
   </component>
@@ -363,21 +352,22 @@
       <workItem from="1560348208611" duration="2473000" />
       <workItem from="1560605518718" duration="5395000" />
       <workItem from="1560652988811" duration="7372000" />
-      <workItem from="1560950446579" duration="4900000" />
+      <workItem from="1560950446579" duration="5243000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20140000" />
+    <option name="totallyTimeSpent" value="20483000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1376" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Web" order="0" side_tool="true" />
       <window_info id="UI Designer" order="1" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="Designer" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="4" visible="true" weight="0.34432516" />
+      <window_info content_ui="combo" id="Project" order="4" weight="0.34432516" />
       <window_info id="Structure" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Java Enterprise" order="0" />
       <window_info anchor="bottom" id="Spring" order="1" />
@@ -410,7 +400,7 @@
       <window_info id="UI Designer" order="1" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="4" weight="0.34432516" />
+      <window_info content_ui="combo" id="Project" order="4" visible="true" weight="0.34432516" />
       <window_info id="Structure" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Java Enterprise" order="0" />
       <window_info anchor="bottom" id="Spring" order="1" />
@@ -806,16 +796,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test-dao/src/main/java/com/suixingpay/jooq/BaseDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1011">
-          <caret line="53" column="43" lean-forward="true" selection-start-line="53" selection-start-column="43" selection-end-line="53" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/stream/Stream.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="174">
@@ -849,10 +829,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test-service/src/main/java/com/suixingpay/jooq/service/SysUserService.java">
+    <entry file="jar://D:/soft/gradle-4.10.2/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-core/8.5.23/e5c70a402738f0ab5153e11b16ec28fb5eb8da2/tomcat-embed-core-8.5.23-sources.jar!/org/apache/tomcat/util/net/SocketProcessorBase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="32" column="23" selection-start-line="32" selection-end-line="33" />
+        <state relative-caret-position="32">
+          <caret line="48" column="12" selection-start-line="48" selection-start-column="12" selection-end-line="48" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-dao/src/main/java/com/suixingpay/jooq/BaseDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="101" lean-forward="true" selection-end-line="104" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -861,28 +848,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test-dao/src/main/java/com/suixingpay/jooq/dao/SysUserDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="21" column="20" selection-start-line="21" selection-end-line="22" />
+        <state relative-caret-position="196">
+          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/soft/gradle-4.10.2/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-core/8.5.23/e5c70a402738f0ab5153e11b16ec28fb5eb8da2/tomcat-embed-core-8.5.23-sources.jar!/org/apache/tomcat/util/net/SocketProcessorBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="48" column="12" selection-start-line="48" selection-start-column="12" selection-end-line="48" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test-dao/src/main/java/com/suixingpay/jooq/dao/impl/SysUserDaoImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+        <state relative-caret-position="84">
+          <caret line="12" selection-end-line="38" />
           <folding>
             <element signature="e#608#609#0" expanded="true" />
             <element signature="e#639#640#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-service/src/main/java/com/suixingpay/jooq/service/SysUserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

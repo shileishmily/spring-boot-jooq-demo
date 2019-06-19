@@ -18,7 +18,6 @@ import java.util.stream.IntStream;
 
 public abstract class BaseDao<R extends UpdatableRecordImpl> implements SystemConst {
 
-
     @Autowired
     protected DSLContext dsl;
 

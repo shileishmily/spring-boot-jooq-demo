@@ -9,14 +9,6 @@ import org.springframework.stereotype.Service;
 import javax.annotation.Resource;
 import java.util.List;
 
-/**
- * describe:
- *
- * @author: shi_lei@suixingpay.com
- * @date: 2019/06/15 21:54:21:54
- * @version: V1.0
- * @review:
- */
 @Service("sysUserService")
 public class SysUserServiceImpl implements SysUserService {
     @Resource

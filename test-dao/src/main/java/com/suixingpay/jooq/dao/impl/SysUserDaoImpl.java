@@ -11,14 +11,6 @@ import java.util.List;
 
 import static com.suixingpay.jooq.entity.tables.SysUser.SYS_USER;
 
-/**
- * describe:
- *
- * @author: shi_lei@suixingpay.com
- * @date: 2019/06/15 21:51:21:51
- * @version: V1.0
- * @review:
- */
 @Repository("sysUserDao")
 public class SysUserDaoImpl extends BaseDao<SysUserRecord> implements SysUserDao {
     @Override
