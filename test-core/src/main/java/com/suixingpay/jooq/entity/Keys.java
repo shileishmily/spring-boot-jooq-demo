@@ -4,7 +4,11 @@
 package com.suixingpay.jooq.entity;
 
 
+import com.suixingpay.jooq.entity.tables.FlywaySchemaHistory;
+import com.suixingpay.jooq.entity.tables.SysLog;
 import com.suixingpay.jooq.entity.tables.SysUser;
+import com.suixingpay.jooq.entity.tables.records.FlywaySchemaHistoryRecord;
+import com.suixingpay.jooq.entity.tables.records.SysLogRecord;
 import com.suixingpay.jooq.entity.tables.records.SysUserRecord;
 
 import javax.annotation.Generated;
@@ -36,6 +40,8 @@ public class Keys {
     // UNIQUE and PRIMARY KEY definitions
     // -------------------------------------------------------------------------
 
+    public static final UniqueKey<FlywaySchemaHistoryRecord> PK_FLYWAY_SCHEMA_HISTORY = UniqueKeys0.PK_FLYWAY_SCHEMA_HISTORY;
+    public static final UniqueKey<SysLogRecord> PK_SYS_LOG = UniqueKeys0.PK_SYS_LOG;
     public static final UniqueKey<SysUserRecord> PK_SYS_USER = UniqueKeys0.PK_SYS_USER;
 
     // -------------------------------------------------------------------------
@@ -48,6 +54,8 @@ public class Keys {
     // -------------------------------------------------------------------------
 
     private static class UniqueKeys0 {
+        public static final UniqueKey<FlywaySchemaHistoryRecord> PK_FLYWAY_SCHEMA_HISTORY = Internal.createUniqueKey(FlywaySchemaHistory.FLYWAY_SCHEMA_HISTORY, "PK_flyway_schema_history", FlywaySchemaHistory.FLYWAY_SCHEMA_HISTORY.INSTALLED_RANK);
+        public static final UniqueKey<SysLogRecord> PK_SYS_LOG = Internal.createUniqueKey(SysLog.SYS_LOG, "PK_sys_log", SysLog.SYS_LOG.ID);
         public static final UniqueKey<SysUserRecord> PK_SYS_USER = Internal.createUniqueKey(SysUser.SYS_USER, "PK_sys_user", SysUser.SYS_USER.ID);
     }
 }

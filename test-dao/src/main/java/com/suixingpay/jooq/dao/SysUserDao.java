@@ -1,11 +1,9 @@
 package com.suixingpay.jooq.dao;
 
-import com.suixingpay.jooq.BaseDao;
+import com.suixingpay.jooq.entity.tables.pojos.SysUser;
 import com.suixingpay.jooq.entity.tables.records.SysUserRecord;
-import org.jooq.Table;
-import org.springframework.stereotype.Repository;
 
-import static com.suixingpay.jooq.entity.tables.SysUser.SYS_USER;
+import java.util.List;
 
 /**
  * describe:
@@ -15,10 +13,12 @@ import static com.suixingpay.jooq.entity.tables.SysUser.SYS_USER;
  * @version: V1.0
  * @review:
  */
-@Repository
-public class SysUserDao extends BaseDao<SysUserRecord> {
-    @Override
-    public Table<SysUserRecord> table() {
-        return SYS_USER;
-    }
+public interface SysUserDao {
+
+    SysUserRecord findByName(String userName);
+
+    List<SysUserRecord> findByRealName(String realName);
+
+    List<SysUser> findByPhone(String phone);
+
 }

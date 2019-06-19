@@ -4,6 +4,8 @@
 package com.suixingpay.jooq.entity;
 
 
+import com.suixingpay.jooq.entity.tables.FlywaySchemaHistory;
+import com.suixingpay.jooq.entity.tables.SysLog;
 import com.suixingpay.jooq.entity.tables.SysUser;
 
 import java.util.ArrayList;
@@ -30,12 +32,22 @@ import org.jooq.impl.SchemaImpl;
 @SuppressWarnings({ "all", "unchecked", "rawtypes" })
 public class JooqTest extends SchemaImpl {
 
-    private static final long serialVersionUID = 314578113;
+    private static final long serialVersionUID = -1195033215;
 
     /**
      * The reference instance of <code>jooq_test</code>
      */
     public static final JooqTest JOOQ_TEST = new JooqTest();
+
+    /**
+     * The table <code>jooq_test.flyway_schema_history</code>.
+     */
+    public final FlywaySchemaHistory FLYWAY_SCHEMA_HISTORY = com.suixingpay.jooq.entity.tables.FlywaySchemaHistory.FLYWAY_SCHEMA_HISTORY;
+
+    /**
+     * The table <code>jooq_test.sys_log</code>.
+     */
+    public final SysLog SYS_LOG = com.suixingpay.jooq.entity.tables.SysLog.SYS_LOG;
 
     /**
      * The table <code>jooq_test.sys_user</code>.
@@ -67,6 +79,8 @@ public class JooqTest extends SchemaImpl {
 
     private final List<Table<?>> getTables0() {
         return Arrays.<Table<?>>asList(
+            FlywaySchemaHistory.FLYWAY_SCHEMA_HISTORY,
+            SysLog.SYS_LOG,
             SysUser.SYS_USER);
     }
 }

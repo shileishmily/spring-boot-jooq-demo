@@ -16,14 +16,6 @@ import java.util.List;
 import java.util.Map;
 import java.util.stream.IntStream;
 
-/**
- * Description:
- *
- * @author haoyuan.yang
- * @version 1.0
- * @date: 2017/3/11
- * @since JDK 1.8
- */
 public abstract class BaseDao<R extends UpdatableRecordImpl> implements SystemConst {
 
 
